@@ -17,6 +17,7 @@ A atividade foi desenvolvida utilizando-se as seguintes tecnologias
 - _View Models_ utilizados como protocolo de dados para as requisições
 - Validação declarativa implementada através de atributos nas _View Models_
 - _Extension methods_ criados para o mapeamento das _View Models_ para os _Domain Models_
+- Utilização do _serilog_ para tratamento de logs
 - Criada a classe abstrata _Repository<T, TId>_ para encapsular toda lógica comum de acesso a dados
 ```c#
 public abstract class Repository<T, TId> : IRepository<T, TId> 
